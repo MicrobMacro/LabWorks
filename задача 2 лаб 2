@@ -1,0 +1,2 @@
+def discribe_person(name, age=30): print(name, age)
+discribe_person(input('Введите ваше имя: '), input('Введите ваш возраст: '))
