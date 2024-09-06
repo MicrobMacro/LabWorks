@@ -1,0 +1,9 @@
+def greet(name):
+    print('Привет, ', name)
+def square(num):
+    print('квадрат ', num, '=', num**2)
+def max_of_two(x, y):
+    print('Большее число: ', max(x, y))
+greet(input('Введите своё имя: '))
+square(int(input('Введите число для возведения в квадрат: ')))
+max_of_two(int(input('Введите первое число: ')), int(input('Введите второе число: ')))
